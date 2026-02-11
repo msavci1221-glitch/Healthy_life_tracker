@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "549314038522",
+    "firebase_url": "https://mobileprogramming-ea83a-default-rtdb.firebaseio.com",
+    "project_id": "mobileprogramming-ea83a",
+    "storage_bucket": "mobileprogramming-ea83a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549314038522:android:430aa67623825abc2e9743",
+        "android_client_info": {
+          "package_name": "com.example.healthy_life_tracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz2j78oYNl7uodnphvMSxuRkHIYTl1Ezs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
