@@ -1,0 +1,21 @@
+[debug] [2025-12-21T11:36:59.485Z] ----------------------------------------------------------------------
+[debug] [2025-12-21T11:36:59.487Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\saka\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js apps:list android --json --project=mobileprogramming-ea83a
+[debug] [2025-12-21T11:36:59.487Z] CLI Version:   15.0.0
+[debug] [2025-12-21T11:36:59.487Z] Platform:      win32
+[debug] [2025-12-21T11:36:59.487Z] Node Version:  v24.12.0
+[debug] [2025-12-21T11:36:59.487Z] Time:          Sun Dec 21 2025 14:36:59 GMT+0300 (GMT+03:00)
+[debug] [2025-12-21T11:36:59.487Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-12-21T11:36:59.629Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"flutter"}
+[debug] [2025-12-21T11:36:59.631Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-21T11:36:59.631Z] > authorizing via signed-in user (i.saka8327a@gmail.com)
+[debug] [2025-12-21T11:36:59.633Z] Checked if tokens are valid: true, expires at: 1766320514081
+[debug] [2025-12-21T11:36:59.634Z] Checked if tokens are valid: true, expires at: 1766320514081
+[debug] [2025-12-21T11:36:59.634Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mobileprogramming-ea83a/androidApps pageSize=100
+[debug] [2025-12-21T11:37:10.733Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects/mobileprogramming-ea83a/androidApps?pageSize=100, {"headers":{},"method":"GET","signal":{"reason":""}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects/mobileprogramming-ea83a/androidApps?pageSize=100 failed, reason: getaddrinfo ENOTFOUND firebase.googleapis.com
+[debug] [2025-12-21T11:37:10.733Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/mobileprogramming-ea83a/androidApps?pageSize=100
+[debug] [2025-12-21T11:37:11.478Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects/mobileprogramming-ea83a/androidApps?pageSize=100
+    at RetryOperation._fn (C:\Users\saka\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:271:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[error] 
+[error] Error: Failed to list Firebase ANDROID apps. See firebase-debug.log for more info.
